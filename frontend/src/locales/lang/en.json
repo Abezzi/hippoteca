@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "personas": {
+      "dashboard": "Dashboard"
+    },
+    "administration": {
+      "administration": "Administration",
+      "businessConfig": "Business Configuration",
+      "services": "Services",
+      "userManagement": {
+        "userManagement": "User Management",
+        "users": "Users",
+        "roles": "Roles"
+      }
+    },
+    "restaurant": {
+      "restaurant": "Restaurant",
+      "basics": {
+        "basics": "Basics",
+        "menu": "Menu",
+        "category": "Category",
+        "item": "Item",
+        "ingrediente": "Ingredient",
+        "tables": "Tables",
+        "unitOfMeasure": "Unit Of Measure"
+      },
+      "kitchenDisplaySystem": "Kitchen Display System",
+      "customerOrderDisplay": {
+        "customerOrderDisplay": "Customer Order Display",
+        "configuration": "Configuration",
+        "display": "Display"
+      },
+      "pointOfSale": "Point Of Sale",
+      "service": "Service"
+    }
+  }
+}
