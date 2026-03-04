@@ -1,20 +1,18 @@
 import {
-    HiOutlineColorSwatch,
-    HiOutlineDesktopComputer,
-    HiOutlineTemplate,
-    HiOutlineViewGridAdd,
+    HiOutlineChartPie,
+    HiOutlineCog,
     HiOutlineHome,
-} from 'react-icons/hi'
-import type { JSX } from 'react'
+    HiOutlineUsers,
+} from "react-icons/hi";
+import type { JSX } from "react";
 
-export type NavigationIcons = Record<string, JSX.Element>
+export type NavigationIcons = Record<string, JSX.Element>;
 
 const navigationIcon: NavigationIcons = {
     home: <HiOutlineHome />,
-    singleMenu: <HiOutlineViewGridAdd />,
-    collapseMenu: <HiOutlineTemplate />,
-    groupSingleMenu: <HiOutlineDesktopComputer />,
-    groupCollapseMenu: <HiOutlineColorSwatch />,
-}
+    users: <HiOutlineUsers />,
+    config: <HiOutlineCog />,
+    chartPie: <HiOutlineChartPie />,
+};
 
-export default navigationIcon
+export default navigationIcon;

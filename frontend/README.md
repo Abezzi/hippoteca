@@ -21,3 +21,8 @@ requisitos
 
 1. ingresar rut
 2. ingresos mensuales, validar que sea superior a 23UF ~920k
+
+# Views
+
+- dashboard (graphs, statistics)
+- users (filter, query, sort, export, import to excel)

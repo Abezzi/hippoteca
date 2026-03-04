@@ -3,9 +3,15 @@ import type { Routes } from "@/@types/routes";
 
 const personasRoute: Routes = [
   {
-    key: "signIn",
-    path: `/sign-in`,
-    component: lazy(() => import("@/views/auth/SignIn")),
+    key: "people",
+    path: `/people/dashboard`,
+    component: lazy(() => import("@/views/people/Dashboard")),
+    authority: [],
+  },
+  {
+    key: "people",
+    path: `/people/users`,
+    component: lazy(() => import("@/views/people/Users")),
     authority: [],
   },
 ];
