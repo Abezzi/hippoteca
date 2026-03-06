@@ -1,6 +1,9 @@
 {
   "nav": {
-    "home": "Home",
+    "home": {
+      "index": "Index",
+      "home": "Home"
+    },
     "people": {
       "dashboard": "Dashboard",
       "users": "Users"
