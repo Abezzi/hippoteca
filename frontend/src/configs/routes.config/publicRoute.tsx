@@ -3,10 +3,13 @@ import type { Routes } from "@/@types/routes";
 
 const publicRoute: Routes = [
   {
-    key: "publicHome",
-    path: `/`,
-    component: lazy(() => import("@/views/public/Home")),
+    key: "index",
+    path: `/index`,
+    component: lazy(() => import("@/views/public/Index")),
     authority: [],
+    meta: {
+      layout: "blank",
+    },
   },
 ];
 
