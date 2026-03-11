@@ -1,0 +1,1 @@
+import{j as e}from"./index-DCcjHBbg.js";const o=()=>e.jsx(e.Fragment,{children:e.jsxs("div",{className:"mb-8",children:[e.jsx("h3",{className:"mb-1",children:"Public home"}),e.jsx("p",{children:"if you are at localhost:5173/ should see this page"}),e.jsx("p",{children:"Google cloud working!"})]})});export{o as default};

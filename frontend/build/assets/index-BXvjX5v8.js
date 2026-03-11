@@ -1,0 +1,1 @@
+import{j as s}from"./index-DCcjHBbg.js";const r=()=>s.jsx(s.Fragment,{children:s.jsxs("div",{className:"mb-8",children:[s.jsx("h3",{className:"mb-1",children:"Users"}),s.jsx("p",{children:"users table"})]})});export{r as default};
